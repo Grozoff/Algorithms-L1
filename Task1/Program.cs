@@ -25,11 +25,11 @@ namespace Task1
             string actual;
             if (d == 0)
             {
-                Console.WriteLine(actual = "Простое");
+                actual = "prime";
             }
             else
             {
-                Console.WriteLine(actual = "Не простое");
+                actual = "not a prime";
             }
 
             return actual;
@@ -40,29 +40,29 @@ namespace Task1
             testData[0] = new TestCase()
             {
                 Input = 2,
-                Expected = "Простое"
+                Expected = "prime"
             };
             testData[1] = new TestCase()
             {
                 Input = 57,
-                Expected = "Не простое"
+                Expected = "not a prime"
             };
             testData[2] = new TestCase()
             {
                 Input = 181,
-                Expected = "Простое"
+                Expected = "prime"
             };
             testData[3] = new TestCase()
             {
                 Input = 132,
-                Expected = "Не простое"
+                Expected = "not a prime"
             };
 
             foreach (var testCase in testData)
             {
                 var result = JustNumb(testCase.Input);
                 var correct = result == testCase.Expected;
-                Console.WriteLine($"Number {testCase.Input}, Answer {correct}");
+                Console.WriteLine($"Number: {testCase.Input} is {result}, Test: {correct}");
             }
         }
     }
