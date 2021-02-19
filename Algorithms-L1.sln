@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj", "{65DE7023-64E5-4399-A745-90A3BE586E2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1", "Task1\Task1.csproj", "{65DE7023-64E5-4399-A745-90A3BE586E2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3", "Task3\Task3.csproj", "{8EE568BD-FC3E-4F6F-95AE-F4B18A626CBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3 recursion", "Task3 recursion\Task3 recursion.csproj", "{92803FD0-AF2C-459E-A974-F245E5B4EC19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{65DE7023-64E5-4399-A745-90A3BE586E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65DE7023-64E5-4399-A745-90A3BE586E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65DE7023-64E5-4399-A745-90A3BE586E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE568BD-FC3E-4F6F-95AE-F4B18A626CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE568BD-FC3E-4F6F-95AE-F4B18A626CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE568BD-FC3E-4F6F-95AE-F4B18A626CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE568BD-FC3E-4F6F-95AE-F4B18A626CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92803FD0-AF2C-459E-A974-F245E5B4EC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92803FD0-AF2C-459E-A974-F245E5B4EC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92803FD0-AF2C-459E-A974-F245E5B4EC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92803FD0-AF2C-459E-A974-F245E5B4EC19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
